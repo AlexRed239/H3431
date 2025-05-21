@@ -435,7 +435,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1005888961}
-  - component: {fileID: 1005888960}
+  - component: {fileID: 1005888962}
   m_Layer: 0
   m_Name: H3431
   m_TagString: Untagged
@@ -443,22 +443,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1005888960
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1005888959}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 29ebda32198b1f2469c191c68dbe3d64, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  apiKey: f1c08b8c989a76f2103d622fc8ea19ee
-  city: Yekaterinburg
-  fetchInterval: 60
-  logInterval: 5
 --- !u!4 &1005888961
 Transform:
   m_ObjectHideFlags: 0
@@ -474,6 +458,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1005888962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1005888959}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f941d081ed35084fa243fd30be98cf9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  apiKey: f1c08b8c989a76f2103d622fc8ea19ee
+  city: Yekaterinburg,RU
+  fetchInterval: 60
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
